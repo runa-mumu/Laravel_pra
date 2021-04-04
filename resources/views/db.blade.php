@@ -30,6 +30,9 @@
       <td>
         {{$item->name}} 
       </td>
+      <td>
+        {{$item->age}}
+      </td>
     </tr>       
     @endforeach
   </table> 
